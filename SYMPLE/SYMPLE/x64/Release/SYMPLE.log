@@ -1,0 +1,15 @@
+﻿  Parser.cpp
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Parser.cpp(115,41): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Parser.cpp(116,43): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Parser.cpp(142,41): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Parser.cpp(143,43): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  SYMPLE.cpp
+  Code wird generiert.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Lexer.cpp(236): warning C4715: "Lexer::makeSpecial": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Lexer.cpp(247): warning C4715: "Lexer::makeKeyword": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Lexer.cpp(206): warning C4715: "Lexer::makeOperator": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexa\source\repos\SYMPLE\SYMPLE\Lexer.cpp(291): warning C4715: "Lexer::getNextToken": Nicht alle Codepfade geben einen Wert zurück.
+  All 470 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  SYMPLE.vcxproj -> C:\Users\alexa\source\repos\SYMPLE\x64\Release\SYMPL.exe

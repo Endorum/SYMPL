@@ -1,0 +1,26 @@
+
+~function(arg0, arg1){
+
+	#c = arg0
+	#d = arg1
+	
+	c * d
+
+	#result = c
+	<- result
+	
+}
+
+~main(){
+	
+	->function(54.5,45)
+
+	>| a
+	b <|
+
+	+-*/%&^|
+	?:@
+	<< >>
+
+	< >
+}

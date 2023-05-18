@@ -1,0 +1,79 @@
+IDEA:
+
+interpreted language that is based on symbols instead of keywords
+
+
+Symbols:
+
+Variables and data manipulation:
+
+# <i/f/c/s> <ident> new Variable
+<ident>[<ident/const>] string/array indexing
++-*/% arithmetic:
+	a + b * c
+	1. b = b * c
+	2. a = a + b
+&^| bitwise 
+<ident> <| pop
+>| <ident/const> push
+
+
+Control flow
+? {} if
+? {} : {} if:else
+@ {} while
+
+Functions and procedures
+~ <ident>(){} function decleration
+-> <ident>() calling a function
+<- <ident/const> returning
+
+Input/output
+<< <i/f/c/s> <ident> input
+>> <i/f/c/s> <ident/const> output
+
+Data structures
+<ident>[<i/f/c/s>] new list (actually the same as strings but instead of char can be other types)
+#<ident>[] <- new list/array
+<ident> + <ident/const> with same type ofc
+arrays are always dynamic
+Variable{
+	const char * value;
+	std::vector<const char*> * vValue = 0;
+}
+
+Libraries and Modules
+#<< <name of module>
+
+Memory management
+
+
+STD Lib
+
+
+
+parser:
+std::vector<Fucntion*>
+for each Function:
+	function.run();
+	return retValue
+
+
+Node types
+
+literal
+statement (decleration assingment and such, control flow)
+expression (vector<Node*> children, arith., logic,)
+Identifier (function names and variable names)
+function (function node that contains a scope to Scope object)
+
+struct Node{
+	cval type = 0 ;
+	char dType = 0;
+}
+
+
+
+
+
+
